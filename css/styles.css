@@ -757,7 +757,7 @@ address {
   border-radius: 4px;
 }
 
-.icon-close {
+.close-btn {
   position: absolute;
   top: 8px;
   right: 8px;
@@ -767,4 +767,11 @@ address {
   background-color: transparent;
   border: 1px solid rgba(0, 0, 0, 0.1);
   padding: 0;
+  cursor: pointer;
+}
+
+.icon-close {
+  width: 18px;
+  height: 18px;
+  margin: 5px;
 }
